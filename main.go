@@ -18,8 +18,8 @@ import (
 
 var (
 	totalConnections atomic.Int32
-	baseURL          = ""
-	secret           = ""
+	baseURL          = os.Getenv("MERCURE_HUB_URL")
+	secret           = os.Getenv("MERCURE_SUBSCRIBER_JWT_KEY")
 )
 
 func main() {
