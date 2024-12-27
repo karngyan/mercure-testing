@@ -1,0 +1,6 @@
+[settings]
+experimental = true
+
+[env]
+MERCURE_HUB_URL = ''
+MERCURE_SUBSCRIBER_JWT_KEY = ''
